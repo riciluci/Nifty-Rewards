@@ -1,0 +1,33 @@
+#root {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+
+#alert-root {
+    position: fixed;
+    right: 22px;
+    bottom: 5px;
+    z-index: 100;
+}
+
+main {
+    flex: 1;
+    padding: 30px 0 60px;
+    position: relative;
+}
+
+body {
+    background: #14b394;
+}
+
+.link-text {
+    transition: opacity 150ms ease-in;
+    &:hover {
+        opacity: .5;
+    }
+}
